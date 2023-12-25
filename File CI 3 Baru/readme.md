@@ -15,9 +15,10 @@ Sistem CRUD ( Create, Read, Update, Delete ) Dasar Codeigniter 3 & Bootstrap 5 i
 ### TUGAS:
 1. Buka folder ngapaklaptop/appliaction/views/pages/
 2. buatkan halaman about, contact, catalog, dan partnership dibawah codingaan yg sudah ada.
-3. codingan css masukkan ke dalam file app.css pada folder assets/stylesheets/
-4. codingan css harus dimasukkan jadi 1 file agar penulisan coding yg rapi dan terstruktur
-5. untuk penempatan file gambar masukkan ke dalam folder assets/images/
+3. contoh halaman dapat melihat pada website sentralkomputer.com
+4. codingan css masukkan ke dalam file app.css pada folder assets/stylesheets/
+5. codingan css harus dimasukkan jadi 1 file agar penulisan coding yg rapi dan terstruktur
+6. untuk penempatan file gambar masukkan ke dalam folder assets/images/
 
 ### Reference & Credits
 - [Codeigniter](https://codeigniter.com/)
