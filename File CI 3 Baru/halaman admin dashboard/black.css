@@ -1,0 +1,111 @@
+body {
+    background-color: #f0f8ff; /* Warna biru langit */
+}
+
+.navbar {
+    background-color: #87ceeb; /* Warna biru langit */
+    color: white;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #87ceeb; /* Warna biru langit */
+    color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #111;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.list-group {
+    display: flex;
+    flex-direction: row; /* Susun item secara horizontal */
+}
+
+.list-group-item {
+    border: none;
+    background-color: #7aa4ed; /* Ganti dengan warna latar belakang item list yang Anda inginkan */
+    color: white; /* Ganti dengan warna teks item list yang Anda inginkan */
+    margin-right: 5px; /* Jarak antara item list */
+}
+
+.list-group-item:hover {
+    background-color: #0e4367; /* Ganti dengan warna latar belakang saat hover yang Anda inginkan */
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+
+#logo-section {
+    background-image: url('../ngapaklaptop.png'); /* Ganti dengan path gambar logo perusahaan Anda */
+    background-size: cover;
+    background-position: center;
+    display: auto;
+    height: 300px;
+    opacity: 0.6; /* Ganti dengan tingkat transparansi yang Anda inginkan (0.0 - 1.0) */
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#logo-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)); /* Ganti dengan warna transparan untuk gradient */
+}
+
+#logo-section h1 {
+    color: rgb(0, 0, 0); /* Ganti dengan warna teks yang Anda inginkan */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 36px;
+}
+
+/* Animasi */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeInAnimation {
+    animation: fadeIn 1.5s ease-in-out; /* Sesuaikan durasi dan efek animasi yang Anda inginkan */
+}
+
