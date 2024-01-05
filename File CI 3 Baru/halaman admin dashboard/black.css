@@ -3,7 +3,7 @@ body {
 }
 
 .navbar {
-    background-color: #87ceeb; /* Warna biru langit */
+    background-color: #8f9fa6; /* Warna biru langit */
     color: white;
 }
 
@@ -14,7 +14,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #87ceeb; /* Warna biru langit */
+    background-color: #8f9fa6; /* Warna biru langit */
     color: white;
     overflow-x: hidden;
     transition: 0.5s;
@@ -40,6 +40,10 @@ body {
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+}
+
+.sub-menu {
+    padding-left: 20px; /* Menyesuaikan jarak ke kiri untuk sub-menu */
 }
 
 .list-group {
